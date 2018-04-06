@@ -1,0 +1,19 @@
+{
+  "name": "almundoapi",
+  "version": "1.0.0",
+  "description": "Api para la administración de hoteles",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "author": "Sebastian Cardona",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  }
+}
